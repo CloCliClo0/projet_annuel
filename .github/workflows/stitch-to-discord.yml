@@ -19,6 +19,7 @@ concurrency:
 jobs:
   notify:
     runs-on: ubuntu-latest
+    environment: DEV
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
